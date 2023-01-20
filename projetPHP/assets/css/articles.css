@@ -1,0 +1,73 @@
+* {
+    margin: 0%;
+}
+
+body {
+    color:black;
+    font-family: "Trebuchet MS";
+    background-color:#b8c9f7;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background: #718fda;
+    top: 0;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.article-apercu {
+    display: block;
+    cursor: pointer;
+    height: fit-content;
+    width: 250px;
+    margin: 60px;
+    padding: 8px;
+    background-color: #dee9fc;
+    border-radius: 2%;
+    box-shadow: 2px 2px 3px black;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.article-apercu:hover {
+    box-shadow: 5px 5px 10px black;
+    -webkit-transform: scale(1.003);
+    transform: scale(1.003);
+}
+
+.img-apercu-gauche {
+    margin-right: 10px;
+    width : 250px;
+    height: auto;
+    border-radius: 2% 2% 0% 0%;
+}
+
+h3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+p {
+    text-align: left;
+    padding: 8px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
