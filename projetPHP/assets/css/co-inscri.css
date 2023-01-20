@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+}
+
+body {
+    color:black;
+    font-family: "Trebuchet MS";
+    background-color:#b8c9f7;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background: #718fda;
+    top: 0;
+    padding: 20px;
+    z-index: 1000;
+}
+
+main {
+    text-align: center;
+}
+
+.container {
+    max-width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #dee9fc;
+    box-shadow: 5px 5px 10px black;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+    -webkit-transform: scale(1.003);
+    transform: scale(1.003);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.bouton {
+    margin-top: 7px;
+    width: 100px;
+    height: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #718fda20;
+    color: black;
+    border: 2px solid #718fda;
+    border-radius: 7%;
+}
+
+.bouton:hover {
+    background-color: #718fda;
+    color: white;
+}
